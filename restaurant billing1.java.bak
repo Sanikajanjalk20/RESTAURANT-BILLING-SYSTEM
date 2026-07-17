@@ -1,0 +1,61 @@
+import java.util.Scanner;
+class restaurant billing 1
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int item choice,quantity;
+		float price = 0,total bill,discount = 0,final-bill;
+		
+		System.out.println("RESTAURANT MENU'S");
+		System.out.println("1] DAL-MAKHNI  = RS.160");
+		System.out.println("2] SHAHI-PANEER = RS.220");
+		System.out.println("3] MIX VEG = RS.230");
+		System.out.println("4] VEG-PULAV = RS.150");
+		System.out.println("5] TANDOORI ROTI = RS.20");
+		System.out.println("6] JEERA RICE = RS.90");
+		
+		
+		System.out.print("enter quantity : ");
+		quantity = sc.nextInt();
+		
+		switch ()
+		{
+		case 1:
+		System.out.println"PRICE = 160");
+		break;
+		case 2:
+			System.out.println("PRICE = 220");
+		break;
+		case 3:
+			System.out.println("PRICE = 230");
+		break;
+		case 4:
+			System.out.println("PRICE = 150");
+		break;
+		case 5:
+            System.out.println("PRICE = 20");
+		break;
+		case 6:
+			System.out.println("PRICE = 90");
+        break;
+		 
+		    return;			
+		}
+		
+		total bill = price * quantity;
+		
+		if (total bill > 1000)
+		{
+			discount = total bill* 0.10;
+		}
+		finalbill = total bill -discount;
+		
+		System.out.println("FINALBILL");
+		System.out.println("TOTAL BILL : RS" + total bill);
+		System.out.println("DISCOUNT : RS" + discount);
+		System.out.println("FINAL BILL : RS" + finalbill );
+		sc.close();
+		
+	}
+}
